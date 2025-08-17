@@ -1,0 +1,19 @@
+
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f6f9fc;color:#0c1b2a}
+header{background:linear-gradient(180deg,#0A2E6C,#113d86);color:#fff;text-align:center;padding:20px 12px}
+img.logo{width:92px;height:auto;display:block;margin:0 auto 10px;filter:drop-shadow(0 4px 12px rgba(0,0,0,.25))}
+h1{margin:6px 0 0;font-weight:800;font-size:22px;letter-spacing:.2px}
+.tag{margin:2px 0 0;font-style:italic;opacity:.95}
+main{max-width:900px;margin:0 auto;padding:18px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{display:flex;align-items:center;justify-content:center;min-height:80px;background:#fff;border-radius:16px;
+  text-decoration:none;color:#0A2E6C;font-weight:800;box-shadow:0 10px 24px rgba(10,46,108,.16)}
+.card:hover{transform:translateY(-1px)} .footer{opacity:.7;text-align:center;padding:18px}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.section{background:#fff;border-radius:16px;box-shadow:0 10px 24px rgba(10,46,108,.12);padding:12px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 0}
+button, .btn{background:#0A2E6C;color:#fff;border:none;border-radius:12px;padding:10px 14px;text-decoration:none;font-weight:700;cursor:pointer}
+button.secondary,.btn.secondary{background:#f1f5f9;color:#0A2E6C}
+iframe.form{width:100%;height:72vh;border:0;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.08)}
+.badge{display:inline-block;padding:4px 8px;border-radius:10px;background:#e6eefb;color:#0A2E6C;font-weight:700;font-size:12px;margin-left:6px}
+small.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;opacity:.75}
